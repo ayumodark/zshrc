@@ -17,8 +17,6 @@ alias ga='git add .'
 alias gc='git commit'
 alias gp='git push'
 
-eval "$(starship init zsh)"
-
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '^ ' autosuggest-accept
 
