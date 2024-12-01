@@ -1,2 +1,0 @@
-# zshrc
-My zsh configuraton
