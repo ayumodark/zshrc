@@ -10,7 +10,7 @@ zstyle ':completion:*' file-list all
 
 alias ls='ls -hal --color=auto'
 alias rm='rm -ir'
-alias mv='mv =vi'
+alias mv='mv -vi'
 alias cat='cat -n'
 
 alias ga='git add .'
