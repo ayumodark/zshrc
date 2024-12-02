@@ -1,4 +1,4 @@
-# Dependencies
+# Pre-Install
 **N.B** clone zsh plugins into ~/.zsh
 - `git`
 - `zsh`
