@@ -10,5 +10,5 @@
 
 # Quick Install
 ```
-cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc && exec zsh
+wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc -P ~/ && exec zsh
 ```
