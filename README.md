@@ -8,11 +8,11 @@
 
 **N.B** use git to install zsh plugins into ~/.zsh
 ```
-git clone --single-branch -b main https://github.com/zsh-users/zsh-autosuggestions --depth=1 ~/.zsh && git clone --single-branch -b main https://github.com/zsh-users/zsh-history-substring-search --depth=1 ~/.zsh && git clone --single-branch -b main https://github.com/zsh-users/zsh-syntax-highlighting --depth=1 ~/.zsh
+cd ~ && mkdir .zsh && cd .zsh && git clone --single-branch -b main https://github.com/zsh-users/zsh-autosuggestions --depth=1 && git clone --single-branch -b main https://github.com/zsh-users/zsh-history-substring-search --depth=1 && git clone --single-branch -b main https://github.com/zsh-users/zsh-syntax-highlighting --depth=1
 ```
 # Quick Install
 ```
-wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc -P ~/ && exec zsh
+cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc && exec zsh
 ```
 # Config Details
 - History
