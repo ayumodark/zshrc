@@ -16,7 +16,7 @@ wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc 
 # Config Details
 - History
     - Duplicate command removed
-    - Blank soace ignored
+    - Blank space ignored
 
 - globdots to include hidden directories
 
