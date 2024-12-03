@@ -1,20 +1,15 @@
 # Pre-Install
 - `git`
 - `zsh`
-    - `zsh-autosuggestions`
-    - `zsh-history-substring-search`
-    - `zsh-syntax-highlighting`
 - `wget`
 
-**N.B** use git to install zsh plugins into ~/.zsh
-```
-cd ~ && mkdir .zsh && cd .zsh && git clone --single-branch -b main https://github.com/zsh-users/zsh-autosuggestions --depth=1 && git clone --single-branch -b main https://github.com/zsh-users/zsh-history-substring-search --depth=1 && git clone --single-branch -b main https://github.com/zsh-users/zsh-syntax-highlighting --depth=1
-```
 # Quick Install
 ```
 cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc && exec zsh
 ```
 # Config Details
+- Starship prompt engine
+
 - History
     - Duplicate command removed
     - Blank space ignored
@@ -22,15 +17,14 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 - globdots to include hidden directories
 
 - zstyle
-    - file-list all
-    - menu driven
-        - description
-    
+    - autocolor
+    - force fzf completion
 
 - aliases
-    - ls -> ls -hal --color=auto
-    - rm -> rm -ir
+    - ls -> ls -hal --color
+    - rm -> rm -ri
     - mv -> mv -vi
+    - cp -> cp -ai
     - cat -> cat -n
     - git add . -> ga
     - git commit -> gc
@@ -39,7 +33,8 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 - zsh-autosuggestions
   - accept suggestion bound to `ctrl+space`
 
-- zsh-history-substring-search
-    - parse through history using up and down arrow
+- parse through history using up and down arrow
+
+- fzf to search through possible commands
 
 - zsh-syntax-highlighting
