@@ -7,6 +7,7 @@
 ```
 cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc && exec zsh
 ```
+
 # Config Details
 
 - Zinit plugin manager
@@ -33,8 +34,9 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
     - git commit -> gc
     - gt push -> gp
 
-- zsh-autosuggestions
-  - accept suggestion bound to `ctrl+space`
+- zsh-autosuggestions, accept suggestion bound to `ctrl+space`
+
+- zsh-completions for more definitions
 
 - parse through history using up and down arrow
 
