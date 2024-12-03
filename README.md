@@ -8,6 +8,9 @@
 cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc && exec zsh
 ```
 # Config Details
+
+- Zinit plugin manager
+
 - Starship prompt engine
 
 - History
