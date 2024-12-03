@@ -17,6 +17,7 @@ autoload -Uz compinit && compinit
 
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
+bindkey '^ ' autosuggest-accept
 
 HISTSIZE=5000
 HISTFILE=~/.zsh_history
