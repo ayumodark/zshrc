@@ -44,7 +44,7 @@ alias ls='ls -hal --color'
 alias mv='mc -vi'
 alias rm='rm -ri'
 alias cp='cp -ai'
-alias cat='cat -n'
+alias less='less -N'
 
 alias ga='git add .'
 alias gc='git commit'
