@@ -1,7 +1,7 @@
 # Pre-Install
 - `zsh`
 - `fzf`
-- 'zoxide'
+- `zoxide`
 - `wget`
 
 # Quick Install
