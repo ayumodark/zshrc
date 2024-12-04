@@ -3,15 +3,16 @@ ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 [ ! -d $ZINIT_HOME/.git ] && git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 source "${ZINIT_HOME}/zinit.zsh"
 
-zinit ice as"command" from"gh-r" \
+zi ice as"command" from"gh-r" \
           atclone"./starship init zsh > init.zsh; ./starship completions zsh > _starship" \
           atpull"%atclone" src"init.zsh"
-zinit light starship/starship
+zi light starship/starship
 
-zinit light zsh-users/zsh-syntax-highlighting
-zinit light zsh-users/zsh-completions
-zinit light zsh-users/zsh-autosuggestions
-zinit light Aloxaf/fzf-tab
+zi light zsh-users/zsh-syntax-highlighting
+zi light zsh-users/zsh-completions
+zi light zsh-users/zsh-autosuggestions
+zi light joshskidmore/zsh-fzf-history-search
+zi light Aloxaf/fzf-tab
 
 autoload -Uz compinit && compinit
 
@@ -42,9 +43,11 @@ alias ls='ls -hal --color'
 alias mv='mc -vi'
 alias rm='rm -ri'
 alias cp='cp -ai'
+alias cat='cat -n'
 
 alias ga='git add .'
 alias gc='git commit'
 alias gp='git push'
 
-eval "$(fzf --zsh)"
+source <(fzf --zsh)
+eval "$(zoxide init zsh)"
