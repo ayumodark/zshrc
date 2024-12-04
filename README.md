@@ -31,7 +31,8 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
     - rm -> rm -ri
     - mv -> mv -vi
     - cp -> cp -ai
-    - cat -> cat -n
+    - less -> less -N
+
     - git add . -> ga
     - git commit -> gc
     - gt push -> gp
