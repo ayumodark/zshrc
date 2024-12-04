@@ -16,6 +16,7 @@ zi light Aloxaf/fzf-tab
 
 autoload -Uz compinit && compinit
 
+bindkey -v
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
 bindkey '^ ' autosuggest-accept
