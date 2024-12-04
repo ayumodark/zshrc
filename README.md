@@ -1,6 +1,7 @@
 # Pre-Install
-- `git`
 - `zsh`
+- `fzf`
+- 'zoxide'
 - `wget`
 
 # Quick Install
@@ -23,6 +24,7 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 - zstyle
     - autocolor
     - force fzf completion
+    - use zoxide for directory preview
 
 - aliases
     - ls -> ls -hal --color
@@ -38,8 +40,7 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 
 - zsh-completions for more definitions
 
-- parse through history using up and down arrow
-
-- fzf to search through possible commands
+- parse through history using up and down arrow, search with zsh-fzf-history-search (ctrl+r)
+    - fzf to search through possible commands
 
 - zsh-syntax-highlighting
