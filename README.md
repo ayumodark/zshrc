@@ -1,3 +1,9 @@
+# Images
+prompt: (Starship)[https://github.com/ayumodark/starship]
+
+font: Caskaydia Cove NF Mono
+- fzf completions
+    ![img1](https://github.com/ayumodark/zshrc/blob/images/screenshot.png)
 # Pre-Install
 - `zsh`
 - `fzf`
