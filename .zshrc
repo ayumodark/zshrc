@@ -41,9 +41,9 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 alias ls='ls -hal --color'
-alias mv='mc -vi'
-alias rm='rm -ri'
-alias cp='cp -ai'
+alias mv='mc -v'
+alias rm='rm -r'
+alias cp='cp -a'
 alias less='less -N'
 
 alias ga='git add .'
