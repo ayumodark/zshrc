@@ -28,9 +28,9 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 
 - aliases
     - ls -> ls -hal --color
-    - rm -> rm -ri
-    - mv -> mv -vi
-    - cp -> cp -ai
+    - rm -> rm -r
+    - mv -> mv -v
+    - cp -> cp -a
     - less -> less -N
 
     - git add . -> ga
