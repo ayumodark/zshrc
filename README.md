@@ -30,7 +30,8 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 - zstyle
     - autocolor
     - force fzf completion
-    - use zoxide for directory preview
+    - use fzf-preview
+    - use zoxide preview
 
 - aliases
     - ls -> ls -hal --color
