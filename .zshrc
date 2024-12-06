@@ -41,7 +41,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 alias ls='ls -a | grep "^\."'
-alias eza='eza --icons --tree --colors -F'
+alias eza='eza --icons --tree --color -F'
 alias mv='mc -v'
 alias rm='rm -r'
 alias cp='cp -a'
