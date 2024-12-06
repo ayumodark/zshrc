@@ -35,12 +35,12 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
     - use zoxide preview
 
 - aliases
-    - ls -> ls -a | grep "^\."
-    - eza -> eza --icons --tree --color -F
-    - rm -> rm -r
-    - mv -> mv -v
-    - cp -> cp -a
-    - less -> less -N
+    - ls -> 'ls -a | grep "^\."'
+    - eza -> 'eza --icons --tree --color -F'
+    - rm -> 'rm -r'
+    - mv -> 'mv -v'
+    - cp -> 'cp -a'
+    - less -> 'less -N'
 
     - git add . -> ga
     - git commit -> gc
