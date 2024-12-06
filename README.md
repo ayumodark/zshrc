@@ -8,6 +8,7 @@ font: Caskaydia Cove NF Mono
 - `zsh`
 - `fzf`
 - `zoxide`
+- `eza`
 - `wget`
 
 # Quick Install
@@ -35,6 +36,7 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 
 - aliases
     - ls -> ls -hal --color
+    - eza -> eza --icons --tree --color -F
     - rm -> rm -r
     - mv -> mv -v
     - cp -> cp -a
