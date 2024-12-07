@@ -46,10 +46,10 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 
 - zstyle
     - autocolor
-    - force fzf completion
-    - use fzf-preview
+    - force fzf-tab completion
+		- use eza directory preview
+    	- use bat file preview
     - use zoxide directory preview
-    - use bat file preview
 
 - aliases
     - ls -> 'ls -a | grep "^\\."' 
