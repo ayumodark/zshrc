@@ -37,11 +37,11 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:bat:*' fzf-preview '[[ -d "$realpath" ]] && ls --color "$realpath" || bat --style=numbers --color=always "$realpath"'
 
 alias ls='ls -a | grep "^\."'
-alias eza='eza --icons --tree --color -F'
+alias eza='eza --icons --tree --color=always -F'
 alias mv='mc -v'
 alias rm='rm -r'
 alias cp='cp -a'
-alias less='less -N'
+alias bat='bat --color=always'
 
 alias ga='git add .'
 alias gc='git commit'
