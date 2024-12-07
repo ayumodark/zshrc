@@ -37,7 +37,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:bat:*' fzf-preview '[[ -d "$realpath" ]] && ls --color "$realpath" || bat --style=numbers --color=always "$realpath"'
 
 alias ls='ls -a | grep "^\."'
-alias eza='eza --icons --tree --color=always -F'
+alias eza='eza --icons=always --tree --color=always -classify=always'
 alias mv='mc -v'
 alias rm='rm -r'
 alias cp='cp -a'
