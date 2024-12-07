@@ -10,7 +10,7 @@ font: Caskaydia Cove NF Mono
 
     ![img2](https://github.com/ayumodark/zshrc/blob/images/screenshot2.png)
 
-- cd preview by fzf
+- fzf previews
 
     ![img3](https://github.com/ayumodark/zshrc/blob/images/screenshot3.png)
 
@@ -23,6 +23,7 @@ font: Caskaydia Cove NF Mono
 - `fzf`
 - `zoxide`
 - `eza`
+- `bat`
 - `starship`
 - `wget`
 
@@ -47,7 +48,8 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
     - autocolor
     - force fzf completion
     - use fzf-preview
-    - use zoxide preview
+    - use zoxide directory preview
+    - use bat file preview
 
 - aliases
     - ls -> 'ls -a | grep "^\\."' 
