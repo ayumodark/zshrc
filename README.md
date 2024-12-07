@@ -53,11 +53,11 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 
 - aliases
     - ls -> 'ls -a | grep "^\\."' 
-    - eza -> 'eza --icons --tree --color -F'
+    - eza -> 'eza --icons --tree --color=always -F'
     - rm -> 'rm -r'
     - mv -> 'mv -v'
     - cp -> 'cp -a'
-    - less -> 'less -N'
+    - bat -> 'bat --color=auto'
 
     - git add . -> ga
     - git commit -> gc
