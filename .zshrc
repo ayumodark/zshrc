@@ -49,4 +49,5 @@ alias gp='git push'
 
 source <(fzf --zsh)
 eval "$(zoxide init zsh)"
+eval "$(bat --completion zsh)"
 eval "$(starship init zsh)"
