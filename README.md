@@ -53,7 +53,7 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 
 - aliases
     - ls -> 'ls -a | grep "^\\."' 
-    - eza -> 'eza --icons --tree --color=always -F'
+    - eza -> 'eza --icons=always --tree --color=always -classify=always'
     - rm -> 'rm -r'
     - mv -> 'mv -v'
     - cp -> 'cp -a'
