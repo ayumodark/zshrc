@@ -3,15 +3,19 @@ prompt: [Starship](https://github.com/ayumodark/starship)
 
 font: Caskaydia Cove NF Mono
 - autosuggestions
+
     ![img1](https://github.com/ayumodark/zshrc/blob/images/screenshot.png)
 
 - fzf completions
+
     ![img2](https://github.com/ayumodark/zshrc/blob/images/screenshot2.png)
 
 - cd preview by fzf
+
     ![img3](https://github.com/ayumodark/zshrc/blob/images/screenshot3.png)
 
 - eza directory view
+
     ![img4](https://github.com/ayumodark/zshrc/blob/images/screenshot4.png)
 
 # Pre-Install
@@ -19,6 +23,7 @@ font: Caskaydia Cove NF Mono
 - `fzf`
 - `zoxide`
 - `eza`
+- `starship`
 - `wget`
 
 # Quick Install
