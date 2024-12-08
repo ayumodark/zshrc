@@ -13,12 +13,11 @@ autoload -Uz compinit && compinit
 
 source <(fzf --zsh)
 eval "$(zoxide init zsh)"
-eval "$(bat --completion zsh)"
 eval "$(starship init zsh)"
 
 bindkey -v
-bindkey '^[[A' history-search-backward
-bindkey '^[[B' history-search-forward
+bindkey '^p' history-search-backward
+bindkey '^n' history-search-forward
 bindkey '^ ' autosuggest-accept
 
 HISTSIZE=5000
@@ -34,16 +33,12 @@ setopt hist_ignore_dups
 setopt hist_find_no_dups
 setopt globdots
 
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
-zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza --icons=always --tree --color=always --classify=always $realpath'
-zstyle ':fzf-tab:complete:bat:*' fzf-preview '[[ -d "$realpath" ]] && ls --color "$realpath" || bat --style=numbers --color=always "$realpath"'
-zstyle ':fsf-tab:complete:chafa:*' fzf-preview 'chafa --colors full --align center --animate on $realpath'
-zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --icons=always --color=always --classify=always $realpath'
+zstyle ':fzf-tab:complete:bat:*' fzf-preview 'bat --style=numbers --color=always "$realpath"'
 
-alias ls='ls -a | grep "^\."'
-alias eza='eza --icons=always --tree --color=always -classify=always'
+alias ls.='ls -a | grep "^\."'
+alias eza='eza --icons=always --tree --color=always --classify=always'
 alias mv='mc -v'
 alias rm='rm -r'
 alias cp='cp -a'
