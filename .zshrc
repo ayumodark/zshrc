@@ -11,6 +11,11 @@ zi light Aloxaf/fzf-tab
 
 autoload -Uz compinit && compinit
 
+source <(fzf --zsh)
+eval "$(zoxide init zsh)"
+eval "$(bat --completion zsh)"
+eval "$(starship init zsh)"
+
 bindkey -v
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
@@ -48,8 +53,3 @@ alias chafa='chafa --colors full --align center --animate on'
 alias ga='git add .'
 alias gc='git commit'
 alias gp='git push'
-
-source <(fzf --zsh)
-eval "$(zoxide init zsh)"
-eval "$(bat --completion zsh)"
-eval "$(starship init zsh)"
