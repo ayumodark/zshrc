@@ -53,29 +53,28 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 - zstyle
     - autocolor
     - force fzf-tab completion
-		- use eza directory preview
-    	- use bat file preview
-        - use chafa image preview
-    - use zoxide directory preview
+	- use eza directory preview
+    - use bat file preview
+    - use chafa image preview
 
 - aliases
-    - ls -> 'ls -a | grep "^\\."' 
-    - eza -> 'eza --icons=always --tree --color=always -classify=always'
+    - ls. -> 'ls -a | grep "^\\."' 
+    - eza -> 'eza --icons=always --tree --color=always --classify=always'
     - rm -> 'rm -r'
     - mv -> 'mv -v'
     - cp -> 'cp -a'
     - bat -> 'bat --color=auto'
     - chafa -> 'chafa --colors full --align center --animate on'
 
-    - git add . -> ga
-    - git commit -> gc
-    - gt push -> gp
+    - ga -> 'git add .' 
+    - gc -> 'git commit' 
+    - gp -> 'git push' 
 
 - zsh-autosuggestions, accept suggestion bound to `ctrl+space`
 
 - zsh-completions for more definitions
 
-- parse through history using up and down arrow, search with zsh-fzf-history-search (ctrl+r)
+- parse through history ctrl+p and ctrl+n, search with zsh-fzf-history-search (ctrl+r)
     - fzf-tab to search through possible commands and previews
 
 - zsh-syntax-highlighting
