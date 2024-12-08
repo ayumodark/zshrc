@@ -4,19 +4,24 @@ prompt: [Starship](https://github.com/ayumodark/starship)
 font: Caskaydia Cove NF Mono
 - autosuggestions
 
-    ![img1](https://github.com/ayumodark/zshrc/blob/images/screenshot.png)
+    ![autosuggestions](https://github.com/ayumodark/zshrc/blob/images/autosuggestions.png)
 
 - fzf completions
 
-    ![img2](https://github.com/ayumodark/zshrc/blob/images/screenshot2.png)
+    ![fzf-completions](https://github.com/ayumodark/zshrc/blob/images/fzf-completions.png)
 
 - fzf previews
+    - eza directory preview
 
-    ![img3](https://github.com/ayumodark/zshrc/blob/images/screenshot3.png)
+        ![eza](https://github.com/ayumodark/zshrc/blob/images/eza.png)
 
-- eza directory view
+    - bat file preview
+  
+        ![bat](https://github.com/ayumodark/zshrc/blob/images/bat.png)
 
-    ![img4](https://github.com/ayumodark/zshrc/blob/images/screenshot4.png)
+    - chafa image preview
+
+	    ![chafa](https://github.com/ayumodark/zshrc/blob/images/chafa.png)
 
 # Pre-Install
 - `zsh`
@@ -24,6 +29,7 @@ font: Caskaydia Cove NF Mono
 - `zoxide`
 - `eza`
 - `bat`
+- `chafa`
 - `starship`
 - `wget`
 
@@ -49,6 +55,7 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
     - force fzf-tab completion
 		- use eza directory preview
     	- use bat file preview
+        - use chafa image preview
     - use zoxide directory preview
 
 - aliases
@@ -58,6 +65,7 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
     - mv -> 'mv -v'
     - cp -> 'cp -a'
     - bat -> 'bat --color=auto'
+    - chafa -> 'chafa --colors full --align center --animate on'
 
     - git add . -> ga
     - git commit -> gc
@@ -68,6 +76,6 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 - zsh-completions for more definitions
 
 - parse through history using up and down arrow, search with zsh-fzf-history-search (ctrl+r)
-    - fzf to search through possible commands
+    - fzf-tab to search through possible commands and previews
 
 - zsh-syntax-highlighting
