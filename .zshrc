@@ -42,7 +42,7 @@ alias eza='eza --icons=always --tree --color=always -classify=always'
 alias mv='mc -v'
 alias rm='rm -r'
 alias cp='cp -a'
-alias bat='bat --color=always'
+alias bat='bat --style=numbers --color=always'
 alias chafa='chafa --colors full --align center --animate on'
 
 alias ga='git add .'
