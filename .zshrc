@@ -32,9 +32,10 @@ setopt globdots
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
-zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --icons=always --tree --color=always --classify=always $realpath'
-zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza --icons=always --tree --color=always --classify=always $realpath'
 zstyle ':fzf-tab:complete:bat:*' fzf-preview '[[ -d "$realpath" ]] && ls --color "$realpath" || bat --style=numbers --color=always "$realpath"'
+zstyle ':fsf-tab:complete:chafa:*' fzf-preview 'chafa --colors full --align center --animate on $realpath'
+zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 alias ls='ls -a | grep "^\."'
 alias eza='eza --icons=always --tree --color=always -classify=always'
@@ -42,6 +43,7 @@ alias mv='mc -v'
 alias rm='rm -r'
 alias cp='cp -a'
 alias bat='bat --color=always'
+alias chafa='chafa --colors full --align center --animate on'
 
 alias ga='git add .'
 alias gc='git commit'
