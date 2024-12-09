@@ -1,4 +1,4 @@
-# Images
+# 📷 Images
 prompt: [Starship](https://github.com/ayumodark/starship)
 
 font: Caskaydia Cove NF Mono
@@ -15,7 +15,7 @@ font: Caskaydia Cove NF Mono
 
     ![fzf-tab](https://github.com/ayumodark/zshrc/blob/images/fzf-tab.png)
 
-# Requirements
+# ⚙️  Requirements
 - `zsh`
 - `fzf`
 - `zoxide`
@@ -25,12 +25,12 @@ font: Caskaydia Cove NF Mono
 - `starship`
 - `wget`
 
-# Quick Install
+# 🚀 Quick Install
 ```
 cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc && exec zsh
 ```
 
-# Config Details
+# 🛠️ Config Details
 
 - Zinit plugin manager
 
