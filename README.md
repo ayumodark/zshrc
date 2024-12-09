@@ -43,12 +43,11 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 - globdots to include hidden directories
 
 - zstyle
-    - autocolor
-    - force fzf-tab completion
-    - use eza directory preview
-    - use bat file preview
+    - fzf-tab completion
+    - fzf-tab z preview with bat
+    - fzf-tab bat file preview
 
-- use chafa image preview
+- chafa image preview
 
 - aliases
     - ls. -> 'ls -a | grep "^\\."' 
