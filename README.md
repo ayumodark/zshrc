@@ -2,6 +2,11 @@
 prompt: [Starship](https://github.com/ayumodark/starship)
 
 font: Caskaydia Cove NF Mono
+
+- syntax highlighting
+
+    ![zsh-syntax](https://github.com/ayumodark/zshrc/blob/images/zsh-syntax.png)
+
 - autosuggestions
 
     ![zsh-auto](https://github.com/ayumodark/zshrc/blob/images/zsh-auto.png)
