@@ -1,4 +1,4 @@
-# 📷 Images
+# ✨ Images
 prompt: [Starship](https://github.com/ayumodark/starship)
 
 font: Caskaydia Cove NF Mono
