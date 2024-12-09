@@ -4,27 +4,11 @@ prompt: [Starship](https://github.com/ayumodark/starship)
 font: Caskaydia Cove NF Mono
 - autosuggestions
 
-    ![autosuggestions](https://github.com/ayumodark/zshrc/blob/images/autosuggestions.png)
+    ![zsh-auto](https://github.com/ayumodark/zshrc/blob/images/zsh-auto.png)
 
 - fzf completions
 
-    ![fzf-completions](https://github.com/ayumodark/zshrc/blob/images/fzf-completions.png)
-
-- z directory preview by eza
-
-    ![z](https://github.com/ayumodark/zshrc/blob/images/z.png)
-
-- eza directory preview
-        
-    ![eza](https://github.com/ayumodark/zshrc/blob/images/eza.png)
-
-- bat file preview
-
-    ![bat](https://github.com/ayumodark/zshrc/blob/images/bat.png)
-
-- chafa image preview
-
-	![chafa](https://github.com/ayumodark/zshrc/blob/images/chafa.png)
+    ![fzf-tab](https://github.com/ayumodark/zshrc/blob/images/fzf-tab.png)
 
 # Requirements
 - `zsh`
