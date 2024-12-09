@@ -3,9 +3,9 @@ ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 [ ! -d $ZINIT_HOME/.git ] && git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 source "${ZINIT_HOME}/zinit.zsh"
 
-zi light zsh-users/zsh-syntax-highlighting
-zi light zsh-users/zsh-completions
 zi light zsh-users/zsh-autosuggestions
+zi light zsh-users/zsh-completions
+zi light zsh-users/zsh-syntax-highlighting
 zi light joshskidmore/zsh-fzf-history-search
 zi light Aloxaf/fzf-tab
 
@@ -34,7 +34,7 @@ setopt hist_find_no_dups
 setopt globdots
 
 zstyle ':completion:*' menu no
-zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --icons=always --color=always --classify=always $realpath'
+zstyle ':fzf-tab:complete:z:*' fzf-preview 'eza -1 --icons=always --color=always --classify=always $realpath'
 zstyle ':fzf-tab:complete:bat:*' fzf-preview 'bat --style=numbers --color=always "$realpath"'
 
 alias ls.='ls -a | grep "^\."'
