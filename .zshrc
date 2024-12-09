@@ -35,7 +35,7 @@ setopt globdots
 
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:z:*' fzf-preview 'eza -1 --icons=always --color=always --classify=always $realpath'
-zstyle ':fzf-tab:complete:bat:*' fzf-preview 'bat --style=numbers --color=always "$realpath"'
+zstyle ':fzf-tab:complete:bat:*' fzf-preview '[[ -d "$realpath" ]] && ls --color "$realpath" || bat --style=numbers --color=always "$realpath"'
 
 alias ls.='ls -a | grep "^\."'
 alias eza='eza --icons=always --tree --color=always --classify=always'
