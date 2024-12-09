@@ -10,20 +10,23 @@ font: Caskaydia Cove NF Mono
 
     ![fzf-completions](https://github.com/ayumodark/zshrc/blob/images/fzf-completions.png)
 
-- fzf previews
-    - eza directory preview
+- z directory preview by eza
 
-        ![eza](https://github.com/ayumodark/zshrc/blob/images/eza.png)
+    ![z](https://github.com/ayumodark/zshrc/blob/images/z.png)
 
-    - bat file preview
-  
-        ![bat](https://github.com/ayumodark/zshrc/blob/images/bat.png)
+- eza directory preview
+        
+    ![eza](https://github.com/ayumodark/zshrc/blob/images/eza.png)
 
-    - chafa image preview
+- bat file preview
 
-	    ![chafa](https://github.com/ayumodark/zshrc/blob/images/chafa.png)
+    ![bat](https://github.com/ayumodark/zshrc/blob/images/bat.png)
 
-# Pre-Install
+- chafa image preview
+
+	![chafa](https://github.com/ayumodark/zshrc/blob/images/chafa.png)
+
+# Requirements
 - `zsh`
 - `fzf`
 - `zoxide`
@@ -53,9 +56,10 @@ cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config
 - zstyle
     - autocolor
     - force fzf-tab completion
-	- use eza directory preview
+    - use eza directory preview
     - use bat file preview
-    - use chafa image preview
+
+- use chafa image preview
 
 - aliases
     - ls. -> 'ls -a | grep "^\\."' 
