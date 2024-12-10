@@ -3,15 +3,15 @@ prompt: [Starship](https://github.com/ayumodark/starship)
 
 font: Caskaydia Cove NF Mono
 
-- syntax highlighting
+- syntax highlighting 🌈
 
     ![zsh-syntax](https://github.com/ayumodark/zshrc/blob/images/zsh-syntax.png)
 
-- autosuggestions
+- autosuggestions 🖊️
 
     ![zsh-auto](https://github.com/ayumodark/zshrc/blob/images/zsh-auto.png)
 
-- fzf completions
+- fzf completions 🤖
 
     ![fzf-tab](https://github.com/ayumodark/zshrc/blob/images/fzf-tab.png)
 
@@ -28,28 +28,28 @@ font: Caskaydia Cove NF Mono
 # 🚀 Quick Install
 ```
 wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc -P $HOME && exec zsh
-```
+``` 
 
 # 🛠️ Config Details
 
-- Zinit plugin manager
+- 🔌 Zinit plugin manager
 
-- Starship prompt engine
+- 🚀 Starship prompt engine
 
-- History
+- 📜 History
     - Duplicate command removed
     - Blank space ignored
 
-- globdots to include hidden directories
+- ⚪️ globdots to include hidden directories
 
-- zstyle
+- 🕶️ zstyle
     - fzf-tab completion
     - fzf-tab z preview with bat
     - fzf-tab bat file preview
 
-- chafa image preview
+- 📷chafa image preview
 
-- aliases
+- 🥸 aliases
     - ls. -> 'ls -a | grep "^\\."' 
     - eza -> 'eza --icons=always --tree --color=always --classify=always'
     - rm -> 'rm -r'
