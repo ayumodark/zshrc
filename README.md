@@ -27,7 +27,7 @@ font: Caskaydia Cove NF Mono
 
 # 🚀 Quick Install
 ```
-cd ~ && wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc && exec zsh
+wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc -P $HOME && exec zsh
 ```
 
 # 🛠️ Config Details
