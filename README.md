@@ -1,6 +1,6 @@
 # Description
 
-This is my starship configuration, it's good :)
+This is my zsh configuration, it's simple and meets my needs
 
 feel free to fork and customize to your needs
 
