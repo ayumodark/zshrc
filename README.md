@@ -1,4 +1,4 @@
-# ✨ Images
+## ✨ Images
 prompt: [Starship](https://github.com/ayumodark/starship)
 
 font: Caskaydia Cove NF Mono
@@ -15,22 +15,22 @@ font: Caskaydia Cove NF Mono
 
     ![fzf-tab](https://github.com/ayumodark/zshrc/blob/images/fzf-tab.png)
 
-# ⚙️  Requirements
-- `zsh`
-- `fzf`
-- `zoxide`
-- `eza`
-- `bat`
-- `chafa`
-- `starship`
-- `wget`
+## ⚙️  Requirements
+- Install [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#install-and-set-up-zsh-as-default)
+- Install [fzf](https://github.com/junegunn/fzf?tab=readme-ov-file#installation)
+- Install [zoxide](https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation)
+- Install [eza](https://github.com/eza-community/eza/blob/main/INSTALL.md)
+- Install [bat](https://github.com/sharkdp/bat?tab=readme-ov-file#on-ubuntu-using-apt)
+- Install [chafa](https://hpjansson.org/chafa/download/)
+- Install [starship](https://starship.rs)
+- Install `wget` (usually include in major distros)
 
-# 🚀 Quick Install
+## 🚀 Quick Install
 ```
 wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc -P $HOME && exec zsh
 ``` 
 
-# 🛠️ Config Details
+## 🛠️ Config Details
 
 - 🔌 Zinit plugin manager
 
@@ -62,11 +62,11 @@ wget https://raw.githubusercontent.com/ayumodark/zshrc/refs/heads/config/.zshrc 
     - gc -> 'git commit' 
     - gp -> 'git push' 
 
-- zsh-autosuggestions, accept suggestion bound to `ctrl+space`
+- 🤖 zsh-autosuggestions, accept suggestion bound to `ctrl+space`
 
-- zsh-completions for more definitions
+- 🖊️ zsh-completions for more definitions
 
-- parse through history ctrl+p and ctrl+n, search with zsh-fzf-history-search (ctrl+r)
+- 💭 parse through history ctrl+p and ctrl+n, search with zsh-fzf-history-search (ctrl+r)
     - fzf-tab to search through possible commands and previews
 
-- zsh-syntax-highlighting
+- 🌈 zsh-syntax-highlighting
