@@ -22,7 +22,7 @@ font: Caskaydia Cove NF Mono
 - Install [eza](https://github.com/eza-community/eza/blob/main/INSTALL.md)
 - Install [bat](https://github.com/sharkdp/bat?tab=readme-ov-file#on-ubuntu-using-apt)
 - Install [chafa](https://hpjansson.org/chafa/download/)
-- Install [starship](https://starship.rs)
+- Install [starship](https://starship.rs/guide/#%F0%9F%9A%80-installation)
 - Install `wget` (usually include in major distros)
 
 ## 🚀 Quick Install
