@@ -1,3 +1,9 @@
+# Description
+
+This is my starship configuration, it's good :)
+
+feel free to fork and customize to your needs
+
 ## ✨ Images
 prompt: [Starship](https://github.com/ayumodark/starship)
 
